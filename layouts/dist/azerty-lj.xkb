@@ -3,7 +3,7 @@
 // Project page  : https://github.com/jordy-ruiz/qwerty-lafayette
 // Author        : Fabien Cazenave
 // Version       : 0.6.1
-// Last change   : 2018-11-24
+// Last change   : 2018-12-25
 // License       : WTFPL - Do What The Fuck You Want Public License
 //
 // French (Azerty-Lafayette-j)
@@ -41,10 +41,10 @@ xkb_keymap {
   // │     │     │   ~ │   # │   { │   [ │     │   7 │   8 │   9 │   @ │   ] │   } ┃ ⌫        ┃
   // ┢━━━━━┷━━┱──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┺━━┳━━━━━━━┫
   // ┃        ┃     │     │     │     │     │     │   ⁴ │   ⁵ │   ⁶ │   × │     │     ┃       ┃
-  // ┃ ↹      ┃   à │   é │   è │   { │   } │     │   ù │   5 │   6 │   * │     │     ┃       ┃
+  // ┃ ↹      ┃   à │   é │   è │   [ │   ] │     │   ù │   5 │   6 │   * │     │     ┃       ┃
   // ┣━━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓  ⏎   ┃
   // ┃         ┃     │   ≠ │     │     │     │     │   ¹ │   ² │   ³ │   − │    ̇ │    ̀ ┃      ┃
-  // ┃ ⇬       ┃   + │   = │   ( │   ) │   [ │   ] │   1 │   2 │   3 │   - │    ́ │   ` ┃      ┃
+  // ┃ ⇬       ┃   + │   = │   { │   } │     │     │   1 │   2 │   3 │   - │    ́ │   ` ┃      ┃
   // ┣━━━━━━┳━━┹──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┲━━┷━━━━━┻━━━━━━┫
   // ┃      ┃     │     │     │     │     │     │     │   ⁰ │     │     │   ¬ ┃               ┃
   // ┃ ⇧    ┃   - │   _ │   * │   ç │   & │   | │     │   0 │     │     │     ┃ ⇧             ┃
@@ -87,8 +87,8 @@ xkb_keymap {
     key <AD01> {[ a               , A               , agrave          , Agrave          ],[ agrave          , Agrave          ]}; // a A à À à À
     key <AD02> {[ z               , Z               , eacute          , Eacute          ],[ eacute          , Eacute          ]}; // z Z é É é É
     key <AD03> {[ e               , E               , egrave          , Egrave          ],[ egrave          , Egrave          ]}; // e E è È è È
-    key <AD04> {[ r               , R               , ecircumflex     , Ecircumflex     ],[ braceleft       , VoidSymbol      ]}; // r R ê Ê {
-    key <AD05> {[ t               , T               , ediaeresis      , Ediaeresis      ],[ braceright      , VoidSymbol      ]}; // t T ë Ë }
+    key <AD04> {[ r               , R               , ecircumflex     , Ecircumflex     ],[ bracketleft     , VoidSymbol      ]}; // r R ê Ê [
+    key <AD05> {[ t               , T               , ediaeresis      , Ediaeresis      ],[ bracketright    , VoidSymbol      ]}; // t T ë Ë ]
     key <AD06> {[ y               , Y               , udiaeresis      , Udiaeresis      ],[ VoidSymbol      , VoidSymbol      ]}; // y Y ü Ü
     key <AD07> {[ u               , U               , ugrave          , Ugrave          ],[ ugrave          , U2074           ]}; // u U ù Ù ù ⁴
     key <AD08> {[ i               , I               , idiaeresis      , Idiaeresis      ],[ 5               , U2075           ]}; // i I ï Ï 5 ⁵
@@ -98,10 +98,10 @@ xkb_keymap {
     // Letters, second row
     key <AC01> {[ q               , Q               , adiaeresis      , Adiaeresis      ],[ plus            , VoidSymbol      ]}; // q Q ä Ä +
     key <AC02> {[ s               , S               , VoidSymbol      , VoidSymbol      ],[ equal           , notequal        ]}; // s S     = ≠
-    key <AC03> {[ d               , D               , VoidSymbol      , VoidSymbol      ],[ parenleft       , VoidSymbol      ]}; // d D     (
-    key <AC04> {[ f               , F               , VoidSymbol      , VoidSymbol      ],[ parenright      , VoidSymbol      ]}; // f F     )
-    key <AC05> {[ g               , G               , VoidSymbol      , VoidSymbol      ],[ bracketleft     , VoidSymbol      ]}; // g G     [
-    key <AC06> {[ h               , H               , leftarrow       , U21D0           ],[ bracketright    , VoidSymbol      ]}; // h H ← ⇐ ]
+    key <AC03> {[ d               , D               , VoidSymbol      , VoidSymbol      ],[ braceleft       , VoidSymbol      ]}; // d D     {
+    key <AC04> {[ f               , F               , VoidSymbol      , VoidSymbol      ],[ braceright      , VoidSymbol      ]}; // f F     }
+    key <AC05> {[ g               , G               , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // g G
+    key <AC06> {[ h               , H               , leftarrow       , U21D0           ],[ VoidSymbol      , VoidSymbol      ]}; // h H ← ⇐
     key <AC07> {[ j               , J               , downarrow       , U21D3           ],[ 1               , onesuperior     ]}; // j J ↓ ⇓ 1 ¹
     key <AC08> {[ k               , K               , uparrow         , U21D1           ],[ 2               , twosuperior     ]}; // k K ↑ ⇑ 2 ²
     key <AC09> {[ l               , L               , rightarrow      , U21D2           ],[ 3               , threesuperior   ]}; // l L → ⇒ 3 ³

@@ -5,7 +5,7 @@
   Project page  : https://github.com/jordy-ruiz/qwerty-lafayette
   Author        : Fabien Cazenave
   Version       : 0.6.1
-  Last change   : 2018-11-24
+  Last change   : 2018-12-25
   License       : WTFPL - Do What The Fuck You Want Public License
   Reference     : http://developer.apple.com/library/mac/#technotes/tn2002/tn2056.html
 
@@ -51,10 +51,10 @@
   │     │     │   ~ │   # │   { │   [ │     │   7 │   8 │   9 │   @ │   ] │   } ┃ ⌫        ┃
   ┢━━━━━┷━━┱──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┺━━┳━━━━━━━┫
   ┃        ┃     │     │     │     │     │     │   ⁴ │   ⁵ │   ⁶ │   × │     │     ┃       ┃
-  ┃ ↹      ┃   à │   é │   è │   { │   } │     │   ù │   5 │   6 │   * │     │     ┃       ┃
+  ┃ ↹      ┃   à │   é │   è │   [ │   ] │     │   ù │   5 │   6 │   * │     │     ┃       ┃
   ┣━━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓  ⏎   ┃
   ┃         ┃     │   ≠ │     │     │     │     │   ¹ │   ² │   ³ │   − │    ̇ │    ̀ ┃      ┃
-  ┃ ⇬       ┃   + │   = │   ( │   ) │   [ │   ] │   1 │   2 │   3 │   - │    ́ │   ` ┃      ┃
+  ┃ ⇬       ┃   + │   = │   { │   } │     │     │   1 │   2 │   3 │   - │    ́ │   ` ┃      ┃
   ┣━━━━━━┳━━┹──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┲━━┷━━━━━┻━━━━━━┫
   ┃      ┃     │     │     │     │     │     │     │   ⁰ │     │     │   ¬ ┃               ┃
   ┃ ⇧    ┃   - │   _ │   * │   ç │   & │   | │     │   0 │     │     │     ┃ ⇧             ┃
@@ -505,8 +505,8 @@
       <key code="12"  output="à" />
       <key code="13"  output="é" />
       <key code="14"  output="è" />
-      <key code="15"  output="{" />
-      <key code="17"  output="}" />
+      <key code="15"  output="[" />
+      <key code="17"  output="]" />
       <key code="16"  output="&#x0010;" />
       <key code="32"  output="ù" />
       <key code="34"  action="5" />
@@ -516,10 +516,10 @@
       <!-- Letters, second row -->
       <key code="0"   action="+" />
       <key code="1"   action="=" />
-      <key code="2"   output="(" />
-      <key code="3"   output=")" />
-      <key code="5"   output="[" />
-      <key code="4"   output="]" />
+      <key code="2"   output="{" />
+      <key code="3"   output="}" />
+      <key code="5"   output="&#x0010;" />
+      <key code="4"   output="&#x0010;" />
       <key code="38"  action="1" />
       <key code="40"  action="2" />
       <key code="37"  action="3" />

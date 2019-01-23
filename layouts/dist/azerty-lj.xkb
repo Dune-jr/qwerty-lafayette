@@ -3,7 +3,7 @@
 // Project page  : https://github.com/jordy-ruiz/qwerty-lafayette
 // Author        : Fabien Cazenave
 // Version       : 0.6.1
-// Last change   : 2018-12-25
+// Last change   : 2019-01-23
 // License       : WTFPL - Do What The Fuck You Want Public License
 //
 // French (Azerty-Lafayette-j)
@@ -19,17 +19,17 @@ xkb_keymap {
 
   // Base layer + dead key
   // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━━┓
-  // │ "   │ (   │ )   │ #   │ |   │ $   │  ̂   │  ̈   │ {   │ }   │ @   │ _   │ + ± ┃          ┃
+  // │ "   │ (   │ )   │ #   │ |   │ $   │ [   │ ]   │ {   │ }   │ @   │ _   │ + ± ┃          ┃
   // │ ' ` │ 1 ( │ 2 ) │ 3 « │ 4 » │ 5 € │ 6   │ 7   │ 8   │ 9   │ 0 ° │ - — │ = ≠ ┃ ⌫        ┃
   // ┢━━━━━┷━━┱──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┺━━┳━━━━━━━┫
-  // ┃        ┃ A   │ Z   │ E   │ R   │ T   │ Y   │ U   │ I   │ O   │ P   │ [   │ ]   ┃       ┃
+  // ┃        ┃ A   │ Z   │ E   │ R   │ T   │ Y   │ U   │ I   │ O   │ P   │ <   │ >   ┃       ┃
   // ┃ ↹      ┃   à │   é │   è │   ê │   ë │   ü │   ù │   ï │   ö │   § │  ̂  ̈ │ ;   ┃       ┃
   // ┣━━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓  ⏎   ┃
   // ┃         ┃ Q   │ S   │ D   │ F   │ G   │ H   │ J   │ K   │ L   │ M   │ %   │  ⃡ 	 ┃      ┃
   // ┃ ⇬       ┃   ä │     │     │     │     │   ← │   ↓ │   ↑ │   → │   µ │ /  ̈ │  ⃡ & ┃      ┃
   // ┣━━━━━━┳━━┹──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┲━━┷━━━━━┻━━━━━━┫
-  // ┃      ┃ > ≥ │ W   │ X   │ C   │ V   │ B   │ N   │ ? ¿ │ $   │ \   │ *   ┃               ┃
-  // ┃ ⇧    ┃ < ≤ │     │     │   ç │     │     │   ñ │ ,   │ .   │ :   │ ! ¡ ┃ ⇧             ┃
+  // ┃      ┃ è ≥ │ W   │ X   │ C   │ V   │ B   │ N   │ ? ¿ │ $   │ \   │ *   ┃               ┃
+  // ┃ ⇧    ┃ é ≤ │     │     │   ç │     │     │   ñ │ ,   │ . € │ :   │ ! ¡ ┃ ⇧             ┃
   // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴─┲━━━┷━━━┳━┷━━━━━╋━━━━━━━┳━━━━━━━┫
   // ┃       ┃       ┃       ┃                                ┃       ┃       ┃       ┃       ┃
   // ┃ Ctrl  ┃ super ┃ Alt   ┃ ␣                              ┃ AltGr ┃ super ┃ menu  ┃ Ctrl  ┃
@@ -41,13 +41,13 @@ xkb_keymap {
   // │     │     │   ~ │   # │   { │   [ │     │   7 │   8 │   9 │   @ │   ] │   } ┃ ⌫        ┃
   // ┢━━━━━┷━━┱──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┺━━┳━━━━━━━┫
   // ┃        ┃     │     │     │     │     │     │   ⁴ │   ⁵ │   ⁶ │   × │     │     ┃       ┃
-  // ┃ ↹      ┃   à │   é │   è │   [ │   ] │     │   ù │   5 │   6 │   * │     │     ┃       ┃
+  // ┃ ↹      ┃   à │   é │   è │   ê │   ë │     │   ù │   5 │   6 │   * │     │     ┃       ┃
   // ┣━━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓  ⏎   ┃
   // ┃         ┃     │   ≠ │     │     │     │     │   ¹ │   ² │   ³ │   − │    ̇ │    ̀ ┃      ┃
-  // ┃ ⇬       ┃   + │   = │   { │   } │     │     │   1 │   2 │   3 │   - │    ́ │   ` ┃      ┃
+  // ┃ ⇬       ┃   [ │   ] │   { │   } │   + │     │   1 │   2 │   3 │   - │    ́ │   ` ┃      ┃
   // ┣━━━━━━┳━━┹──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┲━━┷━━━━━┻━━━━━━┫
-  // ┃      ┃     │     │     │     │     │     │     │   ⁰ │     │     │   ¬ ┃               ┃
-  // ┃ ⇧    ┃   - │   _ │   * │   ç │   & │   | │     │   0 │     │     │     ┃ ⇧             ┃
+  // ┃      ┃     │     │     │     │     │   ¦ │     │   ⁰ │     │     │   ¬ ┃               ┃
+  // ┃ ⇧    ┃   - │   _ │   * │   ç │   & │   < │   > │   0 │     │     │     ┃ ⇧             ┃
   // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴─┲━━━┷━━━┳━┷━━━━━╋━━━━━━━┳━━━━━━━┫
   // ┃       ┃       ┃       ┃                                ┃       ┃       ┃       ┃       ┃
   // ┃ Ctrl  ┃ super ┃ Alt   ┃ ␣                              ┃ AltGr ┃ super ┃ menu  ┃ Ctrl  ┃
@@ -77,8 +77,8 @@ xkb_keymap {
     key <AE03> {[ 3               , numbersign      , guillemotleft   , VoidSymbol      ],[ numbersign      , VoidSymbol      ]}; // 3 # «   #
     key <AE04> {[ 4               , bar             , guillemotright  , VoidSymbol      ],[ braceleft       , VoidSymbol      ]}; // 4 | »   {
     key <AE05> {[ 5               , dollar          , EuroSign        , VoidSymbol      ],[ bracketleft     , VoidSymbol      ]}; // 5 $ €   [
-    key <AE06> {[ 6               , dead_circumflex , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // 6 ^
-    key <AE07> {[ 7               , dead_diaeresis  , VoidSymbol      , VoidSymbol      ],[ 7               , U2077           ]}; // 7 ¨     7 ⁷
+    key <AE06> {[ 6               , bracketleft     , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // 6 [
+    key <AE07> {[ 7               , bracketright    , VoidSymbol      , VoidSymbol      ],[ 7               , U2077           ]}; // 7 ]     7 ⁷
     key <AE08> {[ 8               , braceleft       , VoidSymbol      , VoidSymbol      ],[ 8               , U2078           ]}; // 8 {     8 ⁸
     key <AE09> {[ 9               , braceright      , VoidSymbol      , VoidSymbol      ],[ 9               , U2079           ]}; // 9 }     9 ⁹
     key <AE10> {[ 0               , at              , degree          , VoidSymbol      ],[ at              , division        ]}; // 0 @ °   @ ÷
@@ -87,8 +87,8 @@ xkb_keymap {
     key <AD01> {[ a               , A               , agrave          , Agrave          ],[ agrave          , Agrave          ]}; // a A à À à À
     key <AD02> {[ z               , Z               , eacute          , Eacute          ],[ eacute          , Eacute          ]}; // z Z é É é É
     key <AD03> {[ e               , E               , egrave          , Egrave          ],[ egrave          , Egrave          ]}; // e E è È è È
-    key <AD04> {[ r               , R               , ecircumflex     , Ecircumflex     ],[ bracketleft     , VoidSymbol      ]}; // r R ê Ê [
-    key <AD05> {[ t               , T               , ediaeresis      , Ediaeresis      ],[ bracketright    , VoidSymbol      ]}; // t T ë Ë ]
+    key <AD04> {[ r               , R               , ecircumflex     , Ecircumflex     ],[ ecircumflex     , Ecircumflex     ]}; // r R ê Ê ê Ê
+    key <AD05> {[ t               , T               , ediaeresis      , Ediaeresis      ],[ ediaeresis      , Ediaeresis      ]}; // t T ë Ë ë Ë
     key <AD06> {[ y               , Y               , udiaeresis      , Udiaeresis      ],[ VoidSymbol      , VoidSymbol      ]}; // y Y ü Ü
     key <AD07> {[ u               , U               , ugrave          , Ugrave          ],[ ugrave          , U2074           ]}; // u U ù Ù ù ⁴
     key <AD08> {[ i               , I               , idiaeresis      , Idiaeresis      ],[ 5               , U2075           ]}; // i I ï Ï 5 ⁵
@@ -96,11 +96,11 @@ xkb_keymap {
     key <AD10> {[ p               , P               , section         , VoidSymbol      ],[ asterisk        , multiply        ]}; // p P §   * ×
 
     // Letters, second row
-    key <AC01> {[ q               , Q               , adiaeresis      , Adiaeresis      ],[ plus            , VoidSymbol      ]}; // q Q ä Ä +
-    key <AC02> {[ s               , S               , VoidSymbol      , VoidSymbol      ],[ equal           , notequal        ]}; // s S     = ≠
+    key <AC01> {[ q               , Q               , adiaeresis      , Adiaeresis      ],[ bracketleft     , VoidSymbol      ]}; // q Q ä Ä [
+    key <AC02> {[ s               , S               , VoidSymbol      , VoidSymbol      ],[ bracketright    , notequal        ]}; // s S     ] ≠
     key <AC03> {[ d               , D               , VoidSymbol      , VoidSymbol      ],[ braceleft       , VoidSymbol      ]}; // d D     {
     key <AC04> {[ f               , F               , VoidSymbol      , VoidSymbol      ],[ braceright      , VoidSymbol      ]}; // f F     }
-    key <AC05> {[ g               , G               , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // g G
+    key <AC05> {[ g               , G               , VoidSymbol      , VoidSymbol      ],[ plus            , VoidSymbol      ]}; // g G     +
     key <AC06> {[ h               , H               , leftarrow       , U21D0           ],[ VoidSymbol      , VoidSymbol      ]}; // h H ← ⇐
     key <AC07> {[ j               , J               , downarrow       , U21D3           ],[ 1               , onesuperior     ]}; // j J ↓ ⇓ 1 ¹
     key <AC08> {[ k               , K               , uparrow         , U21D1           ],[ 2               , twosuperior     ]}; // k K ↑ ⇑ 2 ²
@@ -112,26 +112,26 @@ xkb_keymap {
     key <AB02> {[ x               , X               , VoidSymbol      , VoidSymbol      ],[ asterisk        , VoidSymbol      ]}; // x X     *
     key <AB03> {[ c               , C               , ccedilla        , Ccedilla        ],[ ccedilla        , Ccedilla        ]}; // c C ç Ç ç Ç
     key <AB04> {[ v               , V               , VoidSymbol      , VoidSymbol      ],[ ampersand       , VoidSymbol      ]}; // v V     &
-    key <AB05> {[ b               , B               , VoidSymbol      , VoidSymbol      ],[ bar             , brokenbar       ]}; // b B     | ¦
-    key <AB06> {[ n               , N               , ntilde          , Ntilde          ],[ VoidSymbol      , VoidSymbol      ]}; // n N ñ Ñ
+    key <AB05> {[ b               , B               , VoidSymbol      , VoidSymbol      ],[ less            , brokenbar       ]}; // b B     < ¦
+    key <AB06> {[ n               , N               , ntilde          , Ntilde          ],[ greater         , greaterthanequal]}; // n N ñ Ñ > ≥
     key <AB07> {[ comma           , question        , VoidSymbol      , questiondown    ],[ 0               , U2070           ]}; // , ?   ¿ 0 ⁰
-    key <AB08> {[ period          , dollar          , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // . $
+    key <AB08> {[ period          , dollar          , EuroSign        , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // . $ €
     key <AB09> {[ colon           , backslash       , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // : \ 
     key <AB10> {[ exclam          , asterisk        , exclamdown      , VoidSymbol      ],[ VoidSymbol      , notsign         ]}; // ! * ¡     ¬
 
     // Pinky keys
     key <AE11> {[ minus           , underscore      , emdash          , VoidSymbol      ],[ bracketright    , VoidSymbol      ]}; // - _ —   ]
     key <AE12> {[ equal           , plus            , notequal        , plusminus       ],[ braceright      , VoidSymbol      ]}; // = + ≠ ± }
-    key <AD11> {[ dead_circumflex , bracketleft     , dead_diaeresis  , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // ^ [ ¨
-    key <AD12> {[ semicolon       , bracketright    , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // ; ]
+    key <AD11> {[ dead_circumflex , less            , dead_diaeresis  , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // ^ < ¨
+    key <AD12> {[ semicolon       , greater         , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // ; >
     key <AC11> {[ slash           , percent         , dead_diaeresis  , VoidSymbol      ],[ dead_acute      , dead_abovedot   ]}; // / % ¨   ´ ˙
     key <TLDE> {[ apostrophe      , quotedbl        , grave           , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // ' " `
     key <BKSL> {[ ISO_Level3_Latch, ISO_Level3_Latch, ampersand       , U0009           ],[ grave           , dead_grave      ]}; // & & & 	 ` `
-    key <LSGT> {[ less            , greater         , lessthanequal   , greaterthanequal],[ minus           , VoidSymbol      ]}; // < > ≤ ≥ -
+    key <LSGT> {[ eacute          , egrave          , lessthanequal   , greaterthanequal],[ minus           , VoidSymbol      ]}; // é è ≤ ≥ -
 
     // Space bar
     key <SPCE> {[ space           , space           , ampersand       , ampersand       ],[ underscore      , space           ]}; //     & & _
-    key <RCTL> {[ ISO_Level3_Latch, VoidSymbol      , ampersand       , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // &   &
+    key <RCTL> {[ VoidSymbol      , VoidSymbol      , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; //
 
     // AltGr
     // Note: the `ISO_Level5_Latch` here is meaningless but helps with Chromium.

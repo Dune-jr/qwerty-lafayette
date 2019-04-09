@@ -5,7 +5,7 @@
   Project page  : https://github.com/jordy-ruiz/qwerty-lafayette
   Author        : Fabien Cazenave
   Version       : 0.6.1
-  Last change   : 2019-02-18
+  Last change   : 2019-04-10
   License       : WTFPL - Do What The Fuck You Want Public License
   Reference     : http://developer.apple.com/library/mac/#technotes/tn2002/tn2056.html
 
@@ -30,16 +30,16 @@
   Base+1dk layer
   ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━━┓
   │ "   │ (   │ )   │ #   │ |   │ €   │ [   │ ]   │ {   │ }   │ @   │ _   │ + ± ┃          ┃
-  │ ' ` │ 1   │ 2   │ 3 « │ 4 » │ 5   │ 6   │ 7   │ 8   │ 9   │ 0 ° │ - ° │ = ≠ ┃ ⌫        ┃
+  │ ' ` │ 1   │ 2   │ 3 « │ 4 » │ 5   │ 6   │ 7   │ 8   │ 9   │ 0 ° │ - — │ = ≠ ┃ ⌫        ┃
   ┢━━━━━┷━━┱──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┺━━┳━━━━━━━┫
   ┃        ┃ A   │ Z   │ E   │ R   │ T   │ Y   │ U   │ I   │ O   │ P   │ <   │ >   ┃       ┃
   ┃ ↹      ┃   à │   é │   è │   ê │   ë │   ü │   ù │   ï │   ö │   § │  ̂  ̈ │ ;   ┃       ┃
   ┣━━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓  ⏎   ┃
-  ┃         ┃ Q   │ S   │ D   │ F   │ G   │ H   │ J   │ K   │ L   │ M   │ %   │  ⃡ 	 ┃      ┃
-  ┃ ⇬       ┃   ä │     │     │     │     │   ← │   ↓ │   ↑ │   → │   µ │ / & │  ⃡ & ┃      ┃
+  ┃         ┃ Q   │ S   │ D   │ F   │ G   │ H   │ J   │ K   │ L   │ M   │ è   │  ⃡ 	 ┃      ┃
+  ┃ ⇬       ┃   ä │     │     │     │     │   ← │   ↓ │   ↑ │   → │   µ │ é & │  ⃡ & ┃      ┃
   ┣━━━━━━┳━━┹──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┲━━┷━━━━━┻━━━━━━┫
-  ┃      ┃ è ≥ │ W   │ X   │ C   │ V   │ B   │ N   │ ? ¿ │ $   │ \   │ *   ┃               ┃
-  ┃ ⇧    ┃ é ≤ │     │     │   ç │   & │     │   ñ │ , ¿ │ . € │ :   │ ! ¡ ┃ ⇧             ┃
+  ┃      ┃ \ ≥ │ W   │ X   │ C   │ V   │ B   │ N   │ ?   │ $   │ %   │ *   ┃               ┃
+  ┃ ⇧    ┃ / ≤ │     │     │   ç │   & │     │   ñ │ , ¿ │ . € │ :   │ ! ¡ ┃ ⇧             ┃
   ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴─┲━━━┷━━━┳━┷━━━━━╋━━━━━━━┳━━━━━━━┫
   ┃       ┃       ┃       ┃                                ┃       ┃       ┃       ┃       ┃
   ┃ Ctrl  ┃ super ┃ Alt   ┃ ␣                              ┃ AltGr ┃ super ┃ menu  ┃ Ctrl  ┃
@@ -48,7 +48,7 @@
   Option layer - to be customized!
   ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━━┓
   │     │     │     │     │     │     │     │   ⁷ │   ⁸ │   ⁹ │   ÷ │     │     ┃          ┃
-  │     │     │   ~ │   # │   { │   [ │     │   7 │   8 │   9 │   @ │   ] │   } ┃ ⌫        ┃
+  │     │   ` │   ~ │   # │   { │   [ │     │   7 │   8 │   9 │   @ │   ] │   } ┃ ⌫        ┃
   ┢━━━━━┷━━┱──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┺━━┳━━━━━━━┫
   ┃        ┃     │     │     │     │     │     │   ⁴ │   ⁵ │   ⁶ │   × │     │     ┃       ┃
   ┃ ↹      ┃   à │   é │   è │   ê │   ë │     │   ù │   5 │   6 │   * │     │     ┃       ┃
@@ -152,10 +152,10 @@
       <key code="24"  action="=" />
       <key code="33"  action="dead_circumflex" />
       <key code="30"  output=";" />
-      <key code="39"  action="/" />
+      <key code="39"  action="é" />
       <key code="50"  action="'" />
       <key code="42"  action="dead_lafayette" />
-      <key code="10"  action="é" />
+      <key code="10"  action="/" />
 
       <!-- Space bar -->
       <key code="49"  output=" " />
@@ -272,9 +272,9 @@
       <key code="9"   output="V" />
       <key code="11"  action="B" />
       <key code="45"  action="N" />
-      <key code="46"  action="?" />
+      <key code="46"  output="?" />
       <key code="43"  output="$" />
-      <key code="47"  output="\" />
+      <key code="47"  output="%" />
       <key code="44"  output="*" />
 
       <!-- Pinky keys -->
@@ -282,10 +282,10 @@
       <key code="24"  action="+" />
       <key code="33"  output="&#x003c;" />
       <key code="30"  output="&#x003e;" />
-      <key code="39"  output="%" />
+      <key code="39"  output="è" />
       <key code="50"  output="&#x0022;" />
       <key code="42"  action="dead_lafayette" />
-      <key code="10"  action="è" />
+      <key code="10"  action="\" />
 
       <!-- Space bar -->
       <key code="49"  output=" " />
@@ -412,10 +412,10 @@
       <key code="24"  action="=" />
       <key code="33"  action="dead_circumflex" />
       <key code="30"  output=";" />
-      <key code="39"  action="/" />
+      <key code="39"  action="É" />
       <key code="50"  action="'" />
       <key code="42"  action="dead_lafayette" />
-      <key code="10"  action="É" />
+      <key code="10"  action="/" />
 
       <!-- Space bar -->
       <key code="49"  output=" " />
@@ -490,7 +490,7 @@
       <key code="49"  output="&#x001B;" />
 
       <!-- Digits -->
-      <key code="18"  output="&#x0010;" />
+      <key code="18"  output="`" />
       <key code="19"  output="~" />
       <key code="20"  output="#" />
       <key code="21"  output="{" />
@@ -504,7 +504,7 @@
       <!-- Letters, first row -->
       <key code="12"  output="à" />
       <key code="13"  action="é" />
-      <key code="14"  action="è" />
+      <key code="14"  output="è" />
       <key code="15"  output="ê" />
       <key code="17"  output="ë" />
       <key code="16"  output="&#x0010;" />
@@ -1481,10 +1481,6 @@
       <when state="none"       output="," />
       <when state="lafayette"  output="¿" />
     </action>
-    <action id="?">
-      <when state="none"       output="?" />
-      <when state="lafayette"  output="¿" />
-    </action>
     <action id=".">
       <when state="none"       output="." />
       <when state="lafayette"  output="€" />
@@ -1497,7 +1493,7 @@
     <!-- Pinky keys -->
     <action id="-">
       <when state="none"       output="-" />
-      <when state="lafayette"  output="°" />
+      <when state="lafayette"  output="—" />
     </action>
     <action id="=">
       <when state="none"       output="=" />
@@ -1507,20 +1503,20 @@
       <when state="none"       output="+" />
       <when state="lafayette"  output="±" />
     </action>
-    <action id="/">
-      <when state="none"       output="/" />
+    <action id="é">
+      <when state="none"       output="é" />
       <when state="lafayette"  output="&#x0026;" />
     </action>
     <action id="'">
       <when state="none"       output="'" />
       <when state="lafayette"  output="`" />
     </action>
-    <action id="é">
-      <when state="none"       output="é" />
+    <action id="/">
+      <when state="none"       output="/" />
       <when state="lafayette"  output="≤" />
     </action>
-    <action id="è">
-      <when state="none"       output="è" />
+    <action id="\">
+      <when state="none"       output="\" />
       <when state="lafayette"  output="≥" />
     </action>
 

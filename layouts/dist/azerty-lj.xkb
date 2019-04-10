@@ -90,10 +90,10 @@ xkb_keymap {
     key <AD04> {[ r               , R               , ecircumflex     , Ecircumflex     ],[ ecircumflex     , Ecircumflex     ]}; // r R ê Ê ê Ê
     key <AD05> {[ t               , T               , ediaeresis      , Ediaeresis      ],[ ediaeresis      , Ediaeresis      ]}; // t T ë Ë ë Ë
     key <AD06> {[ y               , Y               , udiaeresis      , Udiaeresis      ],[ VoidSymbol      , VoidSymbol      ]}; // y Y ü Ü
-    key <AD07> {[ u               , U               , ugrave          , Ugrave          ],[ ugrave          , U2074           ]}; // u U ù Ù ù ⁴
-    key <AD08> {[ i               , I               , idiaeresis      , Idiaeresis      ],[ 5               , U2075           ]}; // i I ï Ï 5 ⁵
-    key <AD09> {[ o               , O               , odiaeresis      , Odiaeresis      ],[ 6               , U2076           ]}; // o O ö Ö 6 ⁶
-    key <AD10> {[ p               , P               , section         , VoidSymbol      ],[ asterisk        , multiply        ]}; // p P §   * ×
+    key <AD07> {[ u               , U               , Prior           , Ugrave          ],[ ugrave          , U2074           ]}; // u U ù Ù ù ⁴
+    key <AD08> {[ i               , I               , Home            , Idiaeresis      ],[ idiaeresis      , U2075           ]}; // i I ï Ï 5 ⁵
+    key <AD09> {[ o               , O               , End             , Odiaeresis      ],[ odiaeresis      , U2076           ]}; // o O ö Ö 6 ⁶
+    key <AD10> {[ p               , P               , Next            , VoidSymbol      ],[ section         , multiply        ]}; // p P §   * ×
 
     // Letters, second row
     key <AC01> {[ q               , Q               , adiaeresis      , Adiaeresis      ],[ bracketleft     , VoidSymbol      ]}; // q Q ä Ä [
@@ -129,7 +129,7 @@ xkb_keymap {
     key <BKSL> {[ ISO_Level3_Latch, ISO_Level3_Latch, ampersand       , U0009           ],[ grave           , dead_grave      ]}; // & & & 	 ` `
     key <LSGT> {[ slash           , backslash       , lessthanequal   , greaterthanequal],[ VoidSymbol      , VoidSymbol      ]}; // / \ ≤ ≥
 
-    key <CAPS> {[ ISO_Level3_Latch, ISO_Level3_Latch, Caps_Lock       , Caps_Lock       ],[ Caps_Lock       , Caps_Lock      ]}; // & & & 	 ` `
+    key <CAPS> {[ ISO_Level3_Latch, ISO_Level3_Latch, ISO_Level3_Latch       , ISO_Level3_Latch       ],[ ISO_Level3_Latch       , ISO_Level3_Latch      ]}; // & & & 	 ` `
 
     // Space bar
     key <SPCE> {[ space           , space           , ampersand       , ampersand       ],[ underscore      , space           ]}; //     & & _

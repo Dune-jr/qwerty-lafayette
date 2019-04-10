@@ -101,10 +101,10 @@ xkb_keymap {
     key <AC03> {[ d               , D               , VoidSymbol      , VoidSymbol      ],[ braceleft       , VoidSymbol      ]}; // d D     {
     key <AC04> {[ f               , F               , VoidSymbol      , VoidSymbol      ],[ braceright      , VoidSymbol      ]}; // f F     }
     key <AC05> {[ g               , G               , VoidSymbol      , VoidSymbol      ],[ plus            , VoidSymbol      ]}; // g G     +
-    key <AC06> {[ h               , H               , Left            , U21D0           ],[ VoidSymbol      , VoidSymbol      ]}; // h H ← ⇐
-    key <AC07> {[ j               , J               , Down            , U21D3           ],[ 1               , onesuperior     ]}; // j J ↓ ⇓ 1 ¹
-    key <AC08> {[ k               , K               , Up              , U21D1           ],[ 2               , twosuperior     ]}; // k K ↑ ⇑ 2 ²
-    key <AC09> {[ l               , L               , Right           , U21D2           ],[ 3               , threesuperior   ]}; // l L → ⇒ 3 ³
+    key <AC06> {[ h               , H               , Left            , Left           ],[ VoidSymbol      , VoidSymbol      ]}; // h H ← ⇐
+    key <AC07> {[ j               , J               , Down            , Down           ],[ 1               , onesuperior     ]}; // j J ↓ ⇓ 1 ¹
+    key <AC08> {[ k               , K               , Up              , Up           ],[ 2               , twosuperior     ]}; // k K ↑ ⇑ 2 ²
+    key <AC09> {[ l               , L               , Right           , Right           ],[ 3               , threesuperior   ]}; // l L → ⇒ 3 ³
     key <AC10> {[ m               , M               , mu              , U039C           ],[ minus           , U2212           ]}; // m M µ Μ - −
 
     // Letters, third row
@@ -129,7 +129,11 @@ xkb_keymap {
     key <BKSL> {[ ISO_Level3_Latch, ISO_Level3_Latch, ampersand       , U0009           ],[ grave           , dead_grave      ]}; // & & & 	 ` `
     key <LSGT> {[ slash           , backslash       , lessthanequal   , greaterthanequal],[ VoidSymbol      , VoidSymbol      ]}; // / \ ≤ ≥
 
+    // special
     key <CAPS> {[ ISO_Level3_Latch, ISO_Level3_Latch, ISO_Level3_Latch       , ISO_Level3_Latch       ],[ ISO_Level3_Latch       , ISO_Level3_Latch      ]}; // & & & 	 ` `
+    key <MUTE> {[ XF86AudioMute    , XF86AudioMute         , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // : %
+    key <VOL-> {[ XF86AudioLowerVolume    , XF86AudioMute         , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // : %
+    key <VOL+> {[ XF86AudioRaiseVolume    , XF86AudioMute         , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // : %
 
     // Space bar
     key <SPCE> {[ space           , space           , ampersand       , ampersand       ],[ underscore      , space           ]}; //     & & _

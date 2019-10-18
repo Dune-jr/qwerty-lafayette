@@ -77,10 +77,10 @@ xkb_keymap {
     key <AE03> {[ 3               , numbersign      , guillemotleft   , VoidSymbol      ],[ numbersign      , VoidSymbol      ]}; // 3 # «   #
     key <AE04> {[ 4               , bar             , guillemotright  , VoidSymbol      ],[ braceleft       , VoidSymbol      ]}; // 4 | »   {
     key <AE05> {[ 5               , grave           , VoidSymbol      , VoidSymbol      ],[ bracketleft     , VoidSymbol      ]}; // 5 `     [
-    key <AE06> {[ 6               , bracketleft     , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // 6 [
-    key <AE07> {[ 7               , bracketright    , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , U2077           ]}; // 7 ]       ⁷
-    key <AE08> {[ 8               , braceleft       , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , U2078           ]}; // 8 {       ⁸
-    key <AE09> {[ 9               , braceright      , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , U2079           ]}; // 9 }       ⁹
+    key <AE06> {[ 6               , EuroSign        , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // 6 [
+    key <AE07> {[ 7               , sterling	      , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , U2077           ]}; // 7 ]       ⁷
+    key <AE08> {[ 8               , asciicircum     , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , U2078           ]}; // 8 {       ⁸
+    key <AE09> {[ 9               , dead_diaeresis  , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , U2079           ]}; // 9 }       ⁹
     key <AE10> {[ 0               , at              , degree          , VoidSymbol      ],[ at              , division        ]}; // 0 @ °   @ ÷
 
     // Letters, first row
@@ -122,8 +122,8 @@ xkb_keymap {
     // Pinky keys
     key <AE11> {[ minus           , underscore      , emdash          , VoidSymbol      ],[ bracketright    , VoidSymbol      ]}; // - _ —   ]
     key <AE12> {[ equal           , plus            , notequal        , plusminus       ],[ braceright      , VoidSymbol      ]}; // = + ≠ ± }
-    key <AD11> {[ dead_circumflex , less            , dead_diaeresis  , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // ^ < ¨
-    key <AD12> {[ semicolon       , greater         , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // ; >
+    key <AD11> {[ dead_circumflex , less            , dead_diaeresis  , VoidSymbol      ],[ minus           , VoidSymbol      ]}; // ^ < ¨
+    key <AD12> {[ semicolon       , greater         , VoidSymbol      , VoidSymbol      ],[ greater         , VoidSymbol      ]}; // ; >
     key <AC11> {[ eacute          , percent         , diaeresis       , VoidSymbol      ],[ dead_acute      , dead_abovedot   ]}; // é % ¨   ´ ˙
     key <TLDE> {[ apostrophe      , quotedbl        , grave           , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; // ' " `
     key <BKSL> {[ ISO_Level3_Latch, ISO_Level3_Latch, U0009           , U0009           ],[ grave           , dead_grave      ]}; // 	 	 	 	 ` `
@@ -131,7 +131,7 @@ xkb_keymap {
 
     // Space bar
     key <SPCE> {[ space           , space           , ampersand       , ampersand       ],[ underscore      , space           ]}; //     & & _
-    key <RCTL> {[ VoidSymbol      , VoidSymbol      , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; //
+    key <CAPS> {[ Control_R       , VoidSymbol      , VoidSymbol      , VoidSymbol      ],[ VoidSymbol      , VoidSymbol      ]}; //
 
     // AltGr
     // Note: the `ISO_Level5_Latch` here is meaningless but helps with Chromium.
